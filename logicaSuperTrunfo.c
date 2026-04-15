@@ -9,6 +9,19 @@ int main() {
     // Definição das variáveis para armazenar as propriedades das cidades
     // Você pode utilizar o código do primeiro desafio
 
+    // Carta 1
+    char estado1;
+    char codigo1[10];
+    char cidade1[50];
+    int populacao1;
+    int pontos1;
+    float area1;
+    float pib1;
+    float densidade1;
+    float pibpercapita1;
+    float superpoder1;
+
+    
     
     // Cadastro das Cartas:
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
