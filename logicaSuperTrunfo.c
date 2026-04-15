@@ -21,7 +21,17 @@ int main() {
     float pibpercapita1;
     float superpoder1;
 
-    
+    // Carta 2
+    char estado2;
+    char codigo2[10];
+    char cidade2[50];
+    int populacao2;
+    int pontos2;
+    float area2;
+    float pib2;
+    float densidade2;
+    float pibpercapita2;
+    float superpoder2;
     
     // Cadastro das Cartas:
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
