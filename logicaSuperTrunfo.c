@@ -72,6 +72,34 @@ int main() {
 
     superpoder1 = populacao1 + area1 + pib1 + pontos1 + pibpercapita1 + densidade1;
 
+    printf("=== Cadastro da Carta 2 ===\n");
+
+    printf("Estado (letra): ");
+    scanf("%c", &estado2);
+
+    printf("Código: ");
+    scanf("%s", &codigo2);
+
+    printf("Nome da cidade: ");
+    scanf("%s", &cidade2);
+
+    printf("População: ");
+    scanf("%d", &populacao2);
+
+    printf("Área: ");
+    scanf("%f", &area2);
+
+    printf("PIB (em bilhões): ");
+    scanf("%f", &pib2);
+
+    printf("Pontos Turísticos: ");
+    scanf("%d", &pontos2);
+
+    densidade2 = populacao2 / area2;
+    pibpercapita2 = pib2 / populacao2;
+
+    superpoder2 = populacao2 + area2 + pib2 + pontos2 + pibpercapita2 + densidade2;
+
     // Comparação de Cartas:
     // Desenvolva a lógica de comparação entre duas cartas.
     // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
