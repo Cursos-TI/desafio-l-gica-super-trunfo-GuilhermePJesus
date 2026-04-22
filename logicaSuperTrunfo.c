@@ -145,6 +145,17 @@ int main() {
     // Exemplo:
     // printf("A cidade vencedora é: %s\n", cidadeVencedora);
 
+    printf("\n=== Menus interativos ===\n");
+    printf("1. População.\n");
+    printf("2. Área.\n");
+    printf("3. PIB.\n");
+    printf("4. Pontos Turísticos.\n");
+    printf("5. Densidade Populacional.\n");
+    printf("6. PIB per Capita.\n");
+    printf("7. Super Poder.\n");
+    printf("Opção inválida.\n");
+    scanf("%d", &opcao);
+
     printf("\n=== Comparação das Cartas ===\n");
     if (populacao1 > populacao2) {
         printf("\nPopulação: Carta 1 venceu!\n");
