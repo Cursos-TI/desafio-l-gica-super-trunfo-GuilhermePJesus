@@ -32,6 +32,8 @@ int main() {
     float densidade2;
     float pibpercapita2;
     float superpoder2;
+
+    int opcao;
     
     // Cadastro das Cartas:
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
