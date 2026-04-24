@@ -202,6 +202,42 @@ int main() {
     printf("Escolha seu SEGUNDO atributo: ");
     scanf("%d", &atributo2);
 
+    if (atributo1 == atributo2) {
+        printf("Seus atributos são iguais.\n");
+    } else {
+        switch (atributo2) {
+        case 1:
+            printf("Você escolheu o atributo População!\n");
+        resultado2 = populacao1 > populacao2 ? 1 : 0;
+        break;
+        case 2:
+            printf("Você escolheu o atributo Área!\n");
+        resultado2 = area1 > area2 ? 1 : 0;
+        break;
+        case 3:
+            printf("Você escolheu o atributo PIB!\n");
+        resultado2 = pib1 > pib1 ? 1 : 0;
+        break;
+        case 4:
+            printf("Você escolheu o atributo Pontos Turísticos!\n");
+        resultado2 = pontos1 > pontos2 ? 1 : 0;
+        break;
+        case 5:
+            printf("Você escolheu o atributo Densidade Populacional!\n");
+        resultado2 = densidade1 < densidade2 ? 1 : 0;
+        break;
+        case 6:
+            printf("Você escolheu o atributo PIB per Capita!\n");
+        resultado2 = pibpercapita1 > pibpercapita2 ? 1 : 0;
+        break;
+        case 7:
+            printf("Você escolheu o atributo Super Poder!\n");
+        resultado2 = superpoder1> superpoder2 ? 1 : 0;
+        break;
+        default:
+        printf("Opção inválida.\n");
+    }
+
     return 0;
 
 }
