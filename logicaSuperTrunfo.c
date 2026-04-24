@@ -154,7 +154,7 @@ int main() {
     printf("5. Densidade Populacional.\n");
     printf("6. PIB per Capita.\n");
     printf("7. Super Poder.\n");
-    printf("Opção inválida.\n");
+    printf("Escolha seu PRIMEIRO atributo: ");
     scanf("%d", &atributo1);
 
     switch (atributo1) {
@@ -238,9 +238,9 @@ int main() {
         printf("Opção inválida.\n");
     }
 
-    if (resultado1 != resultado2) {
+    if (resultado1 && resultado2) {
             printf("Parabéns, você ganhou!\n");
-        } else if (resultado1 && resultado2) {
+        } else if (resultado1 != resultado2) {
             printf("O jogo empatou!\n");
         } else {
             printf("Infelizmente, você perdeu!\n");
