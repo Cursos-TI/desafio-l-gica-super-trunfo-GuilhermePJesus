@@ -238,6 +238,15 @@ int main() {
         printf("Opção inválida.\n");
     }
 
+    if (resultado1 != resultado2) {
+            printf("Parabéns, você ganhou!\n");
+        } else if (resultado1 && resultado2) {
+            printf("O jogo empatou!\n");
+        } else {
+            printf("Infelizmente, você perdeu!\n");
+        }
+
     return 0;
 
+    }
 }
