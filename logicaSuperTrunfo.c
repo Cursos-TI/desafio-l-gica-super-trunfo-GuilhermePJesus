@@ -33,7 +33,7 @@ int main() {
     float pibpercapita2;
     float superpoder2;
 
-    int opcao;
+    int atributo1, atributo2;
     
     // Cadastro das Cartas:
     // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
@@ -154,9 +154,9 @@ int main() {
     printf("6. PIB per Capita.\n");
     printf("7. Super Poder.\n");
     printf("Opção inválida.\n");
-    scanf("%d", &opcao);
+    scanf("%d", &atributo1);
 
-    switch(opcao) {
+    switch(atributo1) {
     case 1:
     printf("\n=== Comparação das Cartas ===\n");
     if (populacao1 > populacao2) {
