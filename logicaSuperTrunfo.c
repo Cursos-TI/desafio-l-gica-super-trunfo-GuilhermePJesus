@@ -191,6 +191,17 @@ int main() {
         break;
     }
 
+    printf("\n=== Menus interativos ===\n");
+    printf("1. População.\n");
+    printf("2. Área.\n");
+    printf("3. PIB.\n");
+    printf("4. Pontos Turísticos.\n");
+    printf("5. Densidade Populacional.\n");
+    printf("6. PIB per Capita.\n");
+    printf("7. Super Poder.\n");
+    printf("Escolha seu SEGUNDO atributo: ");
+    scanf("%d", &atributo2);
+
     return 0;
 
 }
